@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+
+<body class="p-3 ">
+
+<!----- SECTION 1 Navbar light with links----->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+  <a class="navbar-brand" href="home.html">Freddie's Sandwiches</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="build_your's.html">Build your's</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="locations.html">Locations</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="our_story.html">Our story <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!----- SECTION 1.1, Header----->
+<div>
+    <h1 class="container mb-3 font-weight-bold display-2" >Our story
+       
+        <h3 class=" container h3 text-secondary font-weight-lighter mb-5">We have the best ingredients at your disposal, so go ahead and 
+            build your killer sandwich. If we like your creation, we may even name it after you.</p>
+
+</div>
+
+<!----- SECTION 2, form using form-group----->
+   
+<div class="container-md border p-5 mb-5 ">
+    
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control form-control-lg" id="exampleInputPassword1">
+    <small id="emailHelp" class="form-text text-muted">For your eyes only.</small>
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Please send me a free sandwich</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+<!----- SECTION 3,form using collumns and rows----->
+
+<div class="container-md border p-5 ">
+    
+<form>
+<div class="form-row ">
+     <div class="form-group col-md-4">
+         <label for="exampleInputEmail1">Your name</label>
+        <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">First and last, please.</small>
+     </div>
+     <div class="form-group col-md-4">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share this information.</small>
+     </div>
+     <div class="form-group col-md-4">
+       <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control form-control-lg" id="exampleInputPassword1">
+        <small id="emailHelp" class="form-text text-muted">For your eyes only.</small>
+     </div>
+    </div>
+
+
+ <div class="form-row">
+     <div class="form-group col-md-6">
+        <label for="exampleInputEmail1">Home address</label>
+        <input type="address" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">First and last, please.</small>
+    </div>
+    <div class="form-group col-md-4">
+        <label for="exampleInputEmail1">State</label>
+        <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group col-md-2">
+       <label for="exampleInputPassword1">Zip code</label>
+        <input type="password" class="form-control form-control-lg" id="exampleInputPassword1">
+        <small id="emailHelp" class="form-text text-muted">For your eyes only.</small>
+    </div> 
+ </div>
+
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Please send me a free sandwich</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+
+  </form> 
+</div>
+    
+
+    
+</body>
+</html>
